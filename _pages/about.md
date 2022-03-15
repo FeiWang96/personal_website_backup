@@ -22,7 +22,8 @@ I'm in my gap season, working as a research scientist intern at [Tencent AI Lab]
 My research interest lies in natural language processing. 
 
 Previously, I received my master's degree with honor in Computer Science at USC, where I worked closely with [Pedro Szekely](https://usc-isi-i2.github.io/szekely/) at [USC ISI](https://www.isi.edu/) and [Kai-Wei Chang](http://web.cs.ucla.edu/~kwchang/) at UCLA.
-Before coming to USC, I received my bachelor’s degree with honor in Computer Science and Technology at [Renmin University of China](https://www.ruc.edu.cn/en), where I worked closely with [Jun Xu](https://scholar.google.com/citations?user=su14mcEAAAAJ) and [Zhicheng Dou](http://dou.playbigdata.com/).
+During my master's degree, I interned in the Applied Machine Learning Team at [ByteDance](https://www.bytedance.com/en/), led by [Youlong Cheng](https://www.linkedin.com/in/youlongcheng/).
+Before coming to USC, I spent half a year in [Jiwei Li](https://nlp.stanford.edu/~bdlijiwei/)'s [NLP startup](https://www.shannonai.com/en).
+Prior to that, I received my bachelor’s degree with honor in Computer Science and Technology at [Renmin University of China](https://www.ruc.edu.cn/en), where I worked closely with [Jun Xu](https://scholar.google.com/citations?user=su14mcEAAAAJ) and [Zhicheng Dou](http://dou.playbigdata.com/).
 
-I'm a former intern in the Applied Machine Learning Team at [ByteDance](https://www.bytedance.com/en/), led by [Youlong Cheng](https://www.linkedin.com/in/youlongcheng/).
-I also worked closely with [Jiwei Li](https://nlp.stanford.edu/~bdlijiwei/) in his [startup](https://www.shannonai.com/en).
+
