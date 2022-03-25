@@ -84,10 +84,11 @@
               {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
             {%- endif -%}
             {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+          
+            <div class="periodical">
+              {{ periodical | strip }}
+            </div>
           -->
-          <div class="periodical">
-            {{ periodical | strip }}
-          </div>
         {%- endif %}
         
           <!-- Links/Buttons -->
