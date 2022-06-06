@@ -19,7 +19,7 @@ social: false  # includes social icons at the bottom of the page
 
 I am an incoming PhD student in the [Computer Science Department](https://www.cs.usc.edu/) at [University of Southern California](https://www.usc.edu/), advised by [Muhao Chen](https://muhaochen.github.io). 
 Currently, I'm in my gap season, working as an applied scientist intern at [Amazon Alexa AI](https://www.amazon.science/tag/alexa).
-My research interest lies robustness, salience and invariance in natural language processing. 
+My research interest lies in robustness, salience and invariance in natural language processing. 
 
 Previously, I have interned/worked at [Tencent AI Lab](https://ai.tencent.com/ailab/nlp/en/index.html), [ByteDance Applied Machine Learning Team](https://www.bytedance.com/en/) and [Jiwei Li](https://nlp.stanford.edu/~bdlijiwei/)'s [NLP startup](https://www.shannonai.com/en). 
 
