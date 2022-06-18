@@ -22,13 +22,13 @@ My research interest lies in robustness, salience and invariance in natural lang
 
 Currently, I'm an applied scientist intern at [Amazon Alexa AI](https://www.amazon.science/tag/alexa), working with [Anoop Kumar](https://www.linkedin.com/in/anoop-kumar-293191/), [Aram Galstyan](https://scholar.google.com/citations?user=rJTwW0MAAAAJ&hl=en) and [Kai-Wei Chang](http://web.cs.ucla.edu/~kwchang/).
 
-Previously, I have spent time at 
+### Experience
 * [Tencent AI Lab](https://ai.tencent.com/ailab/nlp/en/index.html), working with [Kaiqiang Song](https://scholar.google.com/citations?user=PHoJwakAAAAJ&hl=en), [Hongming Zhang](https://panda0881.github.io/Hongming_Homepage/), [Wenlin Yao](https://wenlinyao.github.io/), [Xiaoyang Wang](https://scholar.google.com/citations?user=EeppWmkAAAAJ&hl=en), [Lifeng Jin](https://scholar.google.com/citations?user=14pGUsIAAAAJ&hl=en) and [Dong Yu](https://sites.google.com/view/dongyu888/);
 * [ByteDance AML](https://www.bytedance.com/en/), working with [Ming Chen](https://www.linkedin.com/in/velicue/) and [Youlong Cheng](https://www.linkedin.com/in/youlongcheng/);
 * [Shannon.AI](https://www.shannonai.com/en), working with [Jiwei Li](https://nlp.stanford.edu/~bdlijiwei/). 
 
-I received my 
-* Master's degree (with honor) in Computer Science at [University of Southern California](https://www.usc.edu/), advised by [Muhao Chen](https://muhaochen.github.io) and [Pedro Szekely](https://usc-isi-i2.github.io/szekely/) at [USC Information Sciences Institute](https://www.isi.edu/) and worked closely with [Kai-Wei Chang](http://web.cs.ucla.edu/~kwchang/) at UCLA.
-* Bachelor’s degree (with honor) in Computer Science and Technology at [Renmin University of China](https://www.ruc.edu.cn/en), advised by [Jun Xu](https://scholar.google.com/citations?user=su14mcEAAAAJ) and [Zhicheng Dou](http://dou.playbigdata.com/).
+### Education 
+* M.S. (w/ honor) in Computer Science at [University of Southern California](https://www.usc.edu/), advised by [Muhao Chen](https://muhaochen.github.io) and [Pedro Szekely](https://usc-isi-i2.github.io/szekely/) at [Information Sciences Institute](https://www.isi.edu/) and worked closely with [Kai-Wei Chang](http://web.cs.ucla.edu/~kwchang/) at UCLA.
+* B.E. (w/ honor) in Computer Science and Technology at [Renmin University of China](https://www.ruc.edu.cn/en), advised by [Jun Xu](https://scholar.google.com/citations?user=su14mcEAAAAJ) and [Zhicheng Dou](http://dou.playbigdata.com/).
 
 
