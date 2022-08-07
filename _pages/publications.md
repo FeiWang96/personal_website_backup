@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: <em>*</em> denotes equal contribution and joint lead authorship.
+description: Also see <a href="https://scholar.google.com/citations?user=N1O2KT8AAAAJ">Google Scholar</a>. <br> <em>*</em> denotes equal contribution and joint lead authorship.
 years: [2022, 2021, 2020, 2019]
 nav: true
 ---
