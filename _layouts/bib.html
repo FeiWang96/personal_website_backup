@@ -115,6 +115,9 @@
           {% if entry.code %}
             <abbr class="badge repo"><a href="{{ entry.code }}" target="_blank">Code</a></abbr>
           {% endif %}
+          {% if entry.award %}
+            <abbr class="badge award">{{ entry.award }}</abbr>
+          {% endif %}
           {% comment %} {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %} {% endcomment %}
