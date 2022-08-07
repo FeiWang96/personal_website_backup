@@ -451,11 +451,24 @@ footer.sticky-bottom {
           }
         }
         .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
+          color: wheat !important;
+          background-color: var(--global-theme-color);
         }
+        .repo {
+          background-color: var(--global-theme-color-contrast);
+        }
+        .pdfs {
+          background-color: var(--global-theme-color-contrast2);
+        }
+        .blog {
+          background-color: var(--global-theme-color-contrast3);
+        }
+//         .award {
+//           color: var(--global-theme-color) !important;
+//           border: 1px solid var(--global-theme-color);
+//           padding-left: 1rem;
+//           padding-right: 1rem;
+//         }
       }
       .title {
         font-weight: bolder;
@@ -519,10 +532,12 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        border: solid 1px white;
+        box-shadow: 2px 2px var(--grey-color-light);
       }
       div.abstract.hidden.open {
-        border-color: var(--global-text-color);
+        border-color: var(--global-theme-color);
+        box-shadow: 2px 2px var(--grey-color-light);
       }
     }
   }
