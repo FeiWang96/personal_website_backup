@@ -450,19 +450,19 @@ footer.sticky-bottom {
             }
           }
         }
-        .award {
-          color: wheat !important;
-          background-color: var(--global-theme-color);
-        }
-        .repo {
-          background-color: var(--global-theme-color-contrast);
-        }
-        .pdfs {
-          background-color: var(--global-theme-color-contrast2);
-        }
-        .blog {
-          background-color: var(--global-theme-color-contrast3);
-        }
+//         .award {
+//           color: wheat !important;
+//           background-color: var(--global-theme-color);
+//         }
+//         .repo {
+//           background-color: var(--global-theme-color-contrast);
+//         }
+//         .pdfs {
+//           background-color: var(--global-theme-color-contrast2);
+//         }
+//         .blog {
+//           background-color: var(--global-theme-color-contrast3);
+//         }
 //         .award {
 //           color: var(--global-theme-color) !important;
 //           border: 1px solid var(--global-theme-color);
@@ -484,9 +484,13 @@ footer.sticky-bottom {
         }
         > em {
           border-bottom: 1px solid var(--global-theme-color);
-          color: var(--global-theme-color);
+          color: var(--orange-color);
           font-style: normal;
         }
+      }
+      .award {
+        color: wheat !important;
+        background-color: var(--global-theme-color);
       }
       .links {
         a.btn {
