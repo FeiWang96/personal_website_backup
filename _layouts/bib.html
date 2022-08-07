@@ -9,9 +9,11 @@
           {%- else -%}
           <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
-          {% if entry.award %}
-          <a class="award">{{entry.award}}</a>
-          {% endif %}
+          <!--
+            {% if entry.award %}
+            <a class="award">{{entry.award}}</a>
+            {% endif %}
+          -->
         {%- endif -%}
         </div>
 
@@ -21,7 +23,15 @@
           {{reference}}
         {%- else %}
           <!-- Title -->
-          <div class="title">{{entry.title}}</div>
+          {% if entry.arxiv %}
+            <div class="title"><a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank"><b>{{entry.title}}</b></a></div>
+          {% else %}
+            {% if entry.url %}
+              <div class="title"><a href="{{ entry.url }}" target="_blank"><b>{{entry.title}}</b></a></div>
+            {% else %}
+              <div class="title"><b>{{entry.title}}</b></div>
+            {% endif %}
+          {% endif %}
           <!-- Author -->
           <div class="author">
           {%- for author in entry.author_array -%}
@@ -99,9 +109,9 @@
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
-          {%- if entry.arxiv %}
+          {% comment %} {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
-          {%- endif %}
+          {%- endif %} {% endcomment %}
           {%- if entry.bibtex_show %}
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           {%- endif %}
