@@ -106,9 +106,15 @@
         
           <!-- Links/Buttons -->
           <div class="links">
-          {%- if entry.abstract %}
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-          {%- endif %}
+          {% if entry.abstract %}
+            <a class="abstract badge" role="button"><span style="color:cadetblue">Abstract</span></a>
+          {% endif %}
+<!--           {%- if entry.code %}
+            <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+          {%- endif %} -->
+          {% if entry.code %}
+            <abbr class="badge repo"><a href="{{ entry.code }}" target="_blank">Code</a></abbr>
+          {% endif %}
           {% comment %} {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %} {% endcomment %}
@@ -134,9 +140,6 @@
           {%- endif %}
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
-          {%- endif %}
-          {%- if entry.code %}
-            <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
           {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}
