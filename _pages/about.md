@@ -18,7 +18,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 I'm a PhD student in computer science at [University of Southern California](https://www.usc.edu/). 
-My research interests are <strong>robustness, salience and invariance in natural language processing</strong>. 
+My research interests are **robustness, salience and invariance in natural language processing**.
 I'm grateful to be advised by [Muhao Chen](https://muhaochen.github.io) and to be supported by the [Annenberg Fellowship](https://graduateschool.usc.edu/fellowships/fellowships-for-phd-students/).
 
 
