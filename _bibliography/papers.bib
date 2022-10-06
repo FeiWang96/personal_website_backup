@@ -1,5 +1,20 @@
 ---
 ---
+@inproceedings{wang2022salience,
+  title={Salience Allocation as Guidance for Abstractive Summarization},
+  author={Wang, Fei and Song, Kaiqiang and Zhang, Hongming and  Jin, Lifeng and Cho, Sangwoo and Yao, Wenlin and Wang, Xiaoyang and Chen, Muhao and Yu,Dong},
+  year={2022},
+  abbr={EMNLP},
+  selected={true}
+}
+
+@inproceedings{xu2022does,
+  title={Does Your Model Classify Entities Reasonably? Diagnosing and Mitigating Spurious Correlations in Entity Typing},
+  author={Xu, Nan and Wang, Fei and Li, Bangzheng and Dong, Mingtao and Chen, Muhao},
+  year={2022},
+  abbr={EMNLP}
+}
+
 @inproceedings{wang2022robust,
   title={Robust (Controlled) Table-to-Text Generation with Structure-Aware Equivariance Learning},
   author={Wang, Fei and Xu, Zhewei and Szekely, Pedro and Chen, Muhao},
@@ -42,7 +57,6 @@
   abbr={SIGIR},
   arxiv={2105.01736},
   code={https://github.com/FeiWang96/GTR},
-  selected={true},
   abstract={The task of natural language table retrieval (NLTR) seeks to retrieve semantically relevant tables based on natural language queries. Existing learning systems for this task often treat tables as plain text based on the assumption that tables are structured as dataframes. However, tables can have complex layouts which indicate diverse dependencies between subtable structures, such as nested headers. As a result, queries may refer to different spans of relevant content that is distributed across these structures. Moreover, such systems fail to generalize to novel scenarios beyond those seen in the training set. Prior methods are still distant from a generalizable solution to the NLTR problem, as they fall short in handling complex table layouts or queries over multiple granularities. To address these issues, we propose Graph-based Table Retrieval (GTR), a generalizable NLTR framework with multi-granular graph representation learning. In our framework, a table is first converted into a tabular graph, with cell nodes, row nodes and column nodes to capture content at different granularities. Then the tabular graph is input to a Graph Transformer model that can capture both table cell content and the layout structures. To enhance the robustness and generalizability of the model, we further incorporate a self-supervised pre-training task based on graph-context matching. Experimental results on two benchmarks show that our method leads to significant improvements over the current state-of-the-art systems. Further experiments demonstrate promising performance of our method on cross-dataset generalization, and enhanced capability of handling complex tables and fulfilling diverse query intents.}
 }
 
