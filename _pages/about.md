@@ -17,9 +17,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a PhD student in computer science at [University of Southern California](https://www.usc.edu/). 
-My research interests are **robustness, salience and invariance in natural language processing**.
-I'm grateful to be advised by [Muhao Chen](https://muhaochen.github.io) and to be supported by the [Annenberg Fellowship](https://graduateschool.usc.edu/fellowships/fellowships-for-phd-students/).
+I'm a PhD student in computer science at [University of Southern California](https://www.usc.edu/). I'm grateful to be advised by [Muhao Chen](https://muhaochen.github.io) and to be supported by the [Annenberg Fellowship](https://graduateschool.usc.edu/fellowships/fellowships-for-phd-students/).
+
+My research focuses on **robustness in natural language processing**, including
+* representation invariance and prediction consistency towards semantic-neutral perturbation,
+* unintended bias (e.g. spurious bias, pretraining bias and label bias) detection and mitigation,
+* generalization to data with distribution shift.
+
 
 
 
