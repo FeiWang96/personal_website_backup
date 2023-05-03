@@ -4,7 +4,8 @@
   title={Robust Natural Language Understanding with Residual Attention Debiasing},
   author={Wang*, Fei and Huang*, James Yipeng and Yan, Tianyi and Zhou, Wenxuan and Chen, Muhao},
   year={2023},
-  abbr={ACL Findings},
+  booktitle={Findings of ACL},
+  abbr={ACL},
   selected={true},
 }
 
@@ -12,6 +13,7 @@
   title={Improving Factuality of Abstractive Summarization without Sacrificing Summary Quality},
   author={Dixit, Tanay and Wang, Fei and Chen, Muhao},
   year={2023},
+  booktitle={Proceedings of ACL},
   abbr={ACL},
   selected={false},
 }
@@ -20,6 +22,7 @@
   title={Salience Allocation as Guidance for Abstractive Summarization},
   author={Wang*, Fei and Song*, Kaiqiang and Zhang, Hongming and Jin, Lifeng and Cho, Sangwoo and Yao, Wenlin and Wang, Xiaoyang and Chen, Muhao and Yu,Dong},
   year={2022},
+  booktitle={Proceedings of EMNLP},
   abbr={EMNLP},
   selected={true},
   arxiv={2210.12330},
@@ -31,6 +34,7 @@
   title={Does Your Model Classify Entities Reasonably? Diagnosing and Mitigating Spurious Correlations in Entity Typing},
   author={Xu, Nan and Wang, Fei and Li, Bangzheng and Dong, Mingtao and Chen, Muhao},
   year={2022},
+  booktitle={Proceedings of EMNLP},
   abbr={EMNLP},
   arxiv={2205.12640},
   code={https://github.com/luka-group/DiagnoseET},
@@ -41,7 +45,7 @@
   title={Robust (Controlled) Table-to-Text Generation with Structure-Aware Equivariance Learning},
   author={Wang, Fei and Xu, Zhewei and Szekely, Pedro and Chen, Muhao},
   year={2022},
-  
+  booktitle={Proceedings of NAACL},
   abbr={NAACL},
   code={https://github.com/luka-group/Lattice},
   selected={true},
@@ -53,8 +57,8 @@
   title={Table-based Fact Verification With Salience-aware Learning},
   author={Wang, Fei and Sun, Kexuan and Pujara, Jay and Szekely, Pedro and Chen, Muhao},
   year={2021},
-  
-  abbr={EMNLP Findings},
+  booktitle={Findings of EMNLP},
+  abbr={EMNLP},
   code={https://github.com/luka-group/Salience-aware-Learning},
   arxiv={2109.04053},
   abstract={Tables provide valuable knowledge that can be used to verify textual statements. While a number of works have considered table-based fact verification, direct alignments of tabular data with tokens in textual statements are rarely available. Moreover, training a generalized fact verification model requires abundant labeled training data. In this paper, we propose a novel system to address these problems. Inspired by counterfactual causality, our system identifies token-level salience in the statement with probing-based salience estimation. Salience estimation allows enhanced learning of fact verification from two perspectives. From one perspective, our system conducts masked salient token prediction to enhance the model for alignment and reasoning between the table and the statement. From the other perspective, our system applies salience-aware data augmentation to generate a more diverse set of training instances by replacing non-salient terms. Experimental results on TabFact show the effective improvement by the proposed salience-aware learning techniques, leading to the new SOTA performance on the benchmark.}
@@ -64,7 +68,7 @@
   title={Tabular Functional Block Detection with Embedding-based Agglomerative Cell Clustering},
   author={Sun, Kexuan and Wang, Fei and Chen, Muhao and Pujara, Jay},
   year={2021},
-  
+  booktitle={Proceedings of CIKM},
   abbr={CIKM},
   url={https://dl.acm.org/doi/10.1145/3459637.3482484},
   abstract={Tables are a widely-used format for data curation. The diversity of domains, layouts, and content of tables makes knowledge extraction challenging. Understanding table layouts is an important step for automatically harvesting knowledge from tabular data. Since table cells are spatially organized into regions, correctly identifying such regions and inferring their functional roles, referred to as functional block detection, is a critical part of understanding table layouts. Earlier functional block detection approaches fail to leverage spatial relationships and higher-level structure, either depending on cell-level predictions or relying on data types as signals for identifying blocks. In this paper, we introduce a flexible functional block detection method by applying agglomerative clustering techniques which merge smaller blocks into larger blocks using two merging strategies. Our proposed method uses cell embeddings with a customized dissimilarity function which utilizes local and margin distances, as well as block coherence metrics to capture cell, block, and table scoped features. Given the diversity of tables in real-world corpora, we also introduce a sampling-based approach for automatically tuning distance thresholds for each table. Experimental results show that our method improves over the earlier state-of-the-art method in terms of several evaluation metrics.}
@@ -74,7 +78,7 @@
   title={Retrieving Complex Tables with Multi-Granular Graph Representation Learning},
   author={Wang, Fei and Sun, Kexuan and Chen, Muhao and Pujara, Jay and Szekely, Pedro},
   year={2021},
-  
+  booktitle={Proceedings of SIGIR},
   abbr={SIGIR},
   arxiv={2105.01736},
   code={https://github.com/FeiWang96/GTR},
@@ -85,7 +89,7 @@
   title={CorefQA: Coreference resolution as query-based span prediction},
   author={Wu, Wei and Wang, Fei and Yuan, Arianna and Wu, Fei and Li, Jiwei},
   year={2020},
-  
+  booktitle={Proceedings of ACL},
   abbr={ACL},
   arxiv={1911.01746},
   code={https://github.com/ShannonAI/CorefQA},
@@ -96,7 +100,7 @@
   title={Glyce: Glyph-vectors for chinese character representations},
   author={Meng*, Yuxian and Wu*, Wei and Wang*, Fei and Li*, Xiaoya and Nie, Ping and Yin, Fan and Li, Muyu and Han, Qinghong and Sun, Xiaofei and Li, Jiwei},
   year={2019},
-  
+  booktitle={Proceedings of NeurIPS},
   abbr={NeurIPS},
   arxiv={1901.10125},
   abstract={It is intuitive that NLP tasks for logographic languages like Chinese should benefit from the use of the glyph information in those languages. However, due to the lack of rich pictographic evidence in glyphs and the weak generalization ability of standard computer vision models on character data, an effective way to utilize the glyph information remains to be found. In this paper, we address this gap by presenting Glyce, the glyph-vectors for Chinese character representations. We make three major innovations: (1) We use historical Chinese scripts (e.g., bronzeware script, seal script, traditional Chinese, etc) to enrich the pictographic evidence in characters; (2) We design CNN structures (called tianzege-CNN) tailored to Chinese character image processing; and (3) We use image-classification as an auxiliary task in a multi-task learning setup to increase the model's ability to generalize. We show that glyph-based models are able to consistently outperform word/char ID-based models in a wide range of Chinese NLP tasks. We are able to set new state-of-the-art results for a variety of Chinese NLP tasks, including tagging (NER, CWS, POS), sentence pair classification, single sentence classification tasks, dependency parsing, and semantic role labeling. For example, the proposed model achieves an F1 score of 80.6 on the OntoNotes dataset of NER, +1.5 over BERT; it achieves an almost perfect accuracy of 99.8\% on the Fudan corpus for text classification.}
