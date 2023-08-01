@@ -19,7 +19,7 @@ social: false  # includes social icons at the bottom of the page
 
 I'm a PhD candidate in computer science at [University of Southern California](https://www.usc.edu/). I'm grateful to be advised by [Muhao Chen](https://muhaochen.github.io) and to be supported by the [Annenberg Fellowship](https://graduateschool.usc.edu/fellowships/fellowships-for-phd-students/).
 
-My research focuses on **robustness in natural language processing**, including **dataset bias, knowledge conflicts and out-of-distribution generalization**.
+I’m broadly interested in natural language processing and machine learning. My long-term goal is to build **robust, controllable, and accountable large language model**-based systems.
 
 ### Experience
 * Applied Scientist Intern, [Amazon Alexa AI](https://www.amazon.science/tag/alexa), with [Aram Galstyan](https://scholar.google.com/citations?user=rJTwW0MAAAAJ&hl=en), [Kai-Wei Chang](http://web.cs.ucla.edu/~kwchang/) and [Anoop Kumar](https://www.linkedin.com/in/anoop-kumar-293191/).
